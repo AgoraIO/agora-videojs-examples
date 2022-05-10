@@ -1,6 +1,6 @@
 <template>
   <SetupDemo />
-  <OptionsDemo />
+  <OptionsDemo class="mt-20" />
 </template>
 
 <script lang="ts" setup>
@@ -15,4 +15,11 @@ defineComponent({
   },
 });
 </script>
+
+<style>
+
+.mt-20{
+  margin-top: 20px;
+}
+</style>
 
