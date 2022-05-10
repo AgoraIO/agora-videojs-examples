@@ -7,6 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "agora-videojs": "file:agora-videojs",
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
   },
