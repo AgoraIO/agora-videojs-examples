@@ -7,7 +7,7 @@ import { defineComponent, onBeforeUnmount, onMounted, ref } from "vue";
 import videojs, { VideoJsPlayer } from "agora-videojs";
 // 样式文件已经在main.ts入口文件引入，无需重复引入
 // import 'agora-videojs/dist/style.css'
-import options from "@/player-options";
+import options from "../player-options";
 
 export default defineComponent({
   setup() {
